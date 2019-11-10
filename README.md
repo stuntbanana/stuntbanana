@@ -67,7 +67,7 @@ To use a VOIP phone with the system:
   |5061|tcp|`0.0.0.0/0,::/0`|SIP over TLS for devices|
   |5060|tcp|`sip.trunk.ip/32`|SIP Trunk TCP inbound|
   |80|tcp|`0.0.0.0/0`|used by **Let's Encrypt** for HTTP auth|
-  |443|tcp`|`0.0.0.0/0`|used by **Let's Encrypt** for HTTP auth|
+  |443|tcp|`0.0.0.0/0`|used by **Let's Encrypt** for HTTP auth|
 
   The SIP TCP inbound rule may not be required by your SIP trunk provider.
   The 80/443 ports are intended for use by **Let's Encrypt** to produce SSL certificates used by SIP-over-TLS. This is to protect your devices' SIP accounts from being eavesdropped on or having their credentials stolen.  
