@@ -14,8 +14,8 @@ Things to know:
 
 Props to [Jonathan Stines](https://twitter.com/fr4nk3nst1ner) for his blog entries about this subject:
 
-https://blog.rapid7.com/2018/05/24/how-to-build-your-own-caller-id-spoofer-part-1/
-https://blog.rapid7.com/2018/07/12/how-to-build-your-own-caller-id-spoofer-part-2/
+* https://blog.rapid7.com/2018/05/24/how-to-build-your-own-caller-id-spoofer-part-1/
+* https://blog.rapid7.com/2018/07/12/how-to-build-your-own-caller-id-spoofer-part-2/
 
 I started with this and decided to strip out all the stuff that I thought was unnecessary to make it more lightweight and secure, and to document the configuration as much as possible.
 
