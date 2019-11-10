@@ -1,6 +1,8 @@
 # STUNT BANANA
 #### Minimalist Asterisk Caller ID Spoofer and Secondary VOIP Line Configuration Built for AWS
 
+Contact: DilDog ([twitter.com/dildog](https://twitter.com/dildog)) (dildog@l0pht.com)
+
 ---
 
 ## Introduction
