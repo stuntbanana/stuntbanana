@@ -1,0 +1,6 @@
+[submodule "asterisk"]
+	path = asterisk
+	url = git@github.com:stuntbanana/asterisk.git
+[submodule "etc-asterisk"]
+	path = etc-asterisk
+	url = git@github.com:stuntbanana/etc-asterisk.git
