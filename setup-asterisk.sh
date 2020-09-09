@@ -48,6 +48,7 @@ sudo cp -rf $SCRIPTDIR/etc-asterisk/* /etc/asterisk/
 
 # set up service
 sudo useradd -U -s /usr/sbin/nologin -M asterisk
+sudo tar xfvz -C /var/lib/asterisk $SCRIPTDIR/sounds.tgz
 sudo chown -R asterisk:asterisk /var/lib/asterisk /var/log/asterisk /var/spool/asterisk /var/run/asterisk
 sudo sed -i 's/#AST_/AST_/g' /etc/default/asterisk
 
