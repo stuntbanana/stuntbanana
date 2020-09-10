@@ -28,9 +28,9 @@ Once set up, here's the basics of using **STUNT BANANA**:
 To use the spoofer application:
 * From any phone, dial the DID (phone number) you assigned the inbound DISA.
 * Key in the passcode you chose, followed by `#`.
-* Key in the extension chosen for the spoofer application (`31337` in the sample config) and wait for the prompt
-* Then type up to 15 numbers to use as the caller id. Wait for acknowledgement. You should pick an area code and exchange that actually exists otherwise many mobile devices and/or carriers will reject the Caller ID as unauthentic and display 'Unknown' on the device. To display international caller id may require adding a `+` and country code to the beginning. Depending on your carrier and trunk provider, you may need additional prefix digits such as `1` to make things work.
-* Then type the number you wish to call. Wait for acknowledgement.
+* Key in the extension chosen for the spoofer application (`31337` in the sample config) followed by `#` and wait for the prompt
+* Then type up to 15 numbers to use as the caller id, followed by `#`. Wait for acknowledgement. You should pick an area code and exchange that actually exists otherwise many mobile devices and/or carriers will reject the Caller ID as unauthentic and display 'Unknown' on the device. To display international caller id may require adding a `+` and country code to the beginning. Depending on your carrier and trunk provider, you may need additional prefix digits such as `1` to make things work.
+* Then type the number you wish to call, followed by `#`. Wait for acknowledgement.
 * The number will be dialed now, with your chosen caller id, and you can have a nice conversation when your party picks up the phone.
 
 To use a VOIP phone with the system:
@@ -44,8 +44,8 @@ To use a VOIP phone with the system:
 
 * Ensure you have an **AWS** account and you can log into it.
 * You might want a mail server you can access to send voicemails from. If you need one, [SendGrid](https://sendgrid.com/) works well and is cheap.
-* Provision an **Ubuntu** instance, 18.04/Bionic `ami-06d51e91cea0dac8d` works as of this writing. (`t3.small` should be sufficient in many cases). Other Debian-derived OS may work, but I can't guarantee anything.
-* Generate an ssh key on that instance and ensure you can `git clone` from **GitHub** with it.
+* Provision an **Ubuntu** instance, 18.04/Bionic works as of this writing. (`t3.small` should be sufficient in many cases). Other Debian-derived OS may work, but I can't guarantee anything.
+* Generate an ssh key on that instance and ensure you can `git clone` from **GitHub** with it. 
 * Allocate the instance an external EIP
 * Prepare a publicly-resolvable domain name for the EIP, with a DNS A record pointing to it.
 * SSH into the box and set up the public name as the instance's hostname
